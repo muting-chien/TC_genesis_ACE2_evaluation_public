@@ -1,9 +1,13 @@
 In this directory, two files with functions used for analysis are included. The two files are:
 
-1. mjo_mean_state_diagnostic.py
+1. mjo_mean_state_diagnostic_uw.py
 Include more general functions (e.g., calculating the meridional mean, separating 4 seasons...)
+Include MJO diagnostic
+- Find the combined EOF
+- Find the RMM index
+- MJO 8-phase composite
 
-2. KW_diagnostic.py
+2. KW_diagnostic_new.py
 KW-tailored diagnostic functions used in this paper such as:
 - generating wavenumber-frequency diagram
 - KW-wavenumber-frequency space-time filter
